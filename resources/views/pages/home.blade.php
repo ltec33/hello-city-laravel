@@ -3,9 +3,9 @@
 @section('title', env('APP_NAME'))
 
 @section('content')
-    <img src="/images/USA.jpg" alt="USA Flag">
+    <img src="{{ asset('/images/USA.jpg') }}" alt="USA Flag" class="rounded shadow-md h-100">
 
-    <h1>Hello from Quebec!</h1>
+    <h1 class="mt-5 text-3xl sm:text-5xl font-semibold text-blue-900">Hello from USA!</h1>
 
-    <p>It's currently {{ date('h:i A') }}.</p>
+    <p class="text-lg text-yellow-700">It's currently {{ date('h:i A') }}.</p>
 @endsection
