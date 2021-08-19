@@ -10,7 +10,7 @@
 
         <p><a href="/">Return to the home page</a></p>
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
+            <p>&copy; Copyright {{ date('Y') }}</p>
         </footer>
     </body>
 </html>
