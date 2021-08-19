@@ -3,13 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
     </head>
     <body>
-        <h1>Hello from Quebec!</h1>
+        <p>Built with &hearts; by LES TEACHERS DU NET.</p>
 
-        <p>It's currently {{ date('h:i A') }}.</p>
-
+        <p><a href="/">Return to the home page</a></p>
         <footer>
             <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
         </footer>
