@@ -1,6 +1,4 @@
-@extends('app')
-
-@section('title', env('APP_NAME'))
+@extends('layouts.app', ['title' => config('app.name')])
 
 @section('content')
     <img src="{{ asset('/images/USA.jpg') }}" alt="USA Flag" class="rounded shadow-md h-100">
