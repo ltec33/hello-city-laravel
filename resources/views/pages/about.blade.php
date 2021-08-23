@@ -6,7 +6,7 @@
 <img src="{{ asset('/images/images.jpg') }}" alt="images Logo" class="my-12 rounded-full shadow-md">
 
     <h2 class="mb-5 text-yellow-500">
-        Built with <span class="text-pink-500">&hearts;</span> by LES TEACHERS DU NET.
+        Built with <span class="text-pink-500">&hearts;</span> by LTEC GICMASTER.
     </h2>
 
     <p><a href="{{ route('home') }}" class="text-red-400 hover:text-red-600 underline">Return to the home page</a></p>
